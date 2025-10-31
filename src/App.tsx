@@ -1,12 +1,8 @@
 import React from "react";
-import SignUpPage from "./pages/SignUpPage";
+import SignUp from "./SignUp";
 
 const App: React.FC = () => {
-  return (
-    <div>
-      <SignUpPage />
-    </div>
-  );
+  return <SignUp />;
 };
 
 export default App;
